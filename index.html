@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- GOOGLE FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wdth,wght@0,100,400;1,85.3,233&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT-AWESOME CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- MY CSS FILE -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Yash Gulati</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- nav STARTS -->
+      <nav class="nav">
+        <div class="nav-toggler" id="nav-toggler"> <i class="fa fa-bars"></i></div>
+        <ul class="nav-list" id="nav-list">
+          <li>
+            <a href="#home"><span>Home</span></a>
+          </li>
+          <li>
+            <a href="#about"> <span>About Me</span></a>
+          </li>
+          <li>
+            <a href="#education"><span>Education</span></a>
+          </li>
+          <li>
+            <a href="#contact"><span>Contact Me</span></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- nav ENDS -->
+
+      <!-- MAIN SECTION STARTS -->
+      <section class="container">
+        <!-- HEADER STARTS -->
+        <header class="header">
+          <section class="header_body" id="home">
+            <img src="./images/me.jpg" alt="" />
+            <div class="header_body-title">
+              <div class="header_body-profession">
+                <h3 class="title">Yash Gulati</h3>
+                <p class="profession">Web Developer</p>
+              </div>
+              <div class="buttons">
+                <a
+                  href="./Yash-Gulati.pdf"
+                  class="button"
+                  download="Yash Gulati Resume.pdf"
+                >
+                  <i class="fa fa-download"></i>
+                  Resume
+                </a>
+                <a href="#contact" class="button"><i class="fa fa-envelope"></i> Contact Me </a>
+              </div>
+            </div>
+          </section>
+        </header>
+        <!-- HEADER ENDS -->
+
+        <!-- MAIN CONTENT STARTS -->
+        <main class="main-content">
+          <!-- ABOUT STARTS -->
+          <section id="about">
+            <!-- LEFT PANEL -->
+            <div class="left">
+              <h4 class="title">About Me and Academic Honesty</h4>
+              <p class="text">
+                I am a vibrant Canadian with the ability and mental fortitude to constantly focus on the main objectives despite setbacks.
+                <br />I have extensive skills and experience in sales and marketing, people management and result management.
+              </p>
+              <p class="text important">
+                I declare that my assessment is wholly my own work in accordance
+                with Seneca Academic Policy. No part of this assessment has been
+                copied manually or electronically from any other source
+                (including web sites) except for the information supplied by the
+                WEB222 instructors and / or made available in this assessment
+                for my use. I also declare that no part of this assignment has
+                been distributed to other students
+              </p>
+              <p class="date">
+                <strong>Date: </strong> <span id="date"></span>
+              </p>
+            </div>
+            <!-- LEFT PANEL ENDS -->
+
+            <!-- RIGHT PANEL -->
+            <div class="right">
+              <h4 class="title">Basic Information</h4>
+              <table>
+                <tr>
+                  <th>AGE:</th>
+                  <td>18</td>
+                </tr>
+                <tr>
+                  <th>EMAIL:</th>
+                  <td>ygulati1@myseneca.ca</td>
+                </tr>
+                <tr>
+                  <th>LANGUAGE:</th>
+                  <td>English, Hindi, Punjabi, and Urdu</td>
+                </tr>
+                <tr>
+                  <th>CLASS SECTION:</th>
+                  <td>NJJ</td>
+                </tr>
+                <tr>
+                  <th>STUDENT ID:</th>
+                  <td>156134215</td>
+                </tr>
+                <tr>
+                  <th>INSTRUCTOR:</th>
+                  <td>Noman A.</td>
+                </tr>
+              </table>
+            </div>
+            <!-- RIGHT PANEL ENDS -->
+          </section>
+          <!-- ABOUT ENDS -->
+
+          <!-- EDUCATION STARTS -->
+          <section id="education">
+            <h3 class="title">Education</h3>
+            <div class="education">
+              <div class="left">
+                <h5 class="period">2022 - 2024 (Expected)</h5>
+                <p class="course">Advanced Diploma</p>
+                <p></p>
+              </div>
+
+              <div class="right">
+                <h5 class="course">Computer Programming Analysis</h5>
+                <h6 class="institution">SENECA COLLEGE</h6>
+                <p class="supervisor">
+                  Under the Supervision of <span>Eva Qadeer</span>
+                </p>
+                <p class="text">Computer Programming Analysis</p>
+              </div>
+            </div>
+          </section>
+          <!-- EDUCATION ENDS -->
+
+          <!-- CONTACT FORM STARTS -->
+          <section id="contact">
+            <h3 class="title">Contact Me</h3>
+            <div class="contact-form">
+              <form id="form" action="https://httpbin.org/post " method="post">
+                <div class="form-group">
+                  <div class="col left">
+                    <div class="form-col">
+                      <label for="name">Full Name <span class="required">*</span></label>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Full Name"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col right">
+                    <div class="form-col">
+                      <label for="email">Email <span class="required">*</span></label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="left">
+                    <div class="form-col">
+                      <label for="address">Address <span class="required">*</span></label>
+                      <input
+                        type="text"
+                        name="address"
+                        id="address"
+                        placeholder="Address"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div class="form-col">
+                      <label for="city">City <span class="required">*</span></label>
+                      <input
+                        list="cities"
+                        name="city"
+                        id="city"
+                        placeholder="City"
+                        required
+                      />
+                      <datalist id="cities">
+                        <option value="Alberta"></option>
+                        <option value="British Columbia"></option>
+                        <option value="Manitoba"></option>
+                        <option value="New Brunswick"></option>
+                        <option value="Newfoundland and Labrador"></option>
+                        <option value="Northwest Territories"></option>
+                        <option value="Nova Scotia"></option>
+                        <option value="Nunavut"></option>
+                        <option value="Ontario"></option>
+                        <option value="Prince Edward Island"></option>
+                        <option value="Quebec"></option>
+                        <option value="Saskatchewan"></option>
+                        <option value="Yukon"></option>
+                      </datalist>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-col">
+                  <label for="postal_code">Postal Code <span class="required">*</span></label>
+                  <input
+                    name="postal_code"
+                    id="postal_code"
+                    placeholder="Postal Code"
+                    pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]"
+                  />
+                </div>
+                <div class="radios">
+                  <p>Type of Contact <span class="required">*</span></p>
+                  <div class="form-col">
+                    <input
+                      class="type"
+                      type="radio"
+                      name="type"
+                      id="question"
+                      value="question"
+                      checked
+                    />
+                    <label for="type">Question</label>
+                  </div>
+                  <div class="form-col">
+                    <input
+                      class="type"
+                      type="radio"
+                      name="type"
+                      id="comment"
+                      value="comment"
+                    />
+                    <label for="type">Comment</label>
+                  </div>
+                  <div class="form-col">
+                    <input
+                      class="type"
+                      type="radio"
+                      name="type"
+                      id="hiring"
+                      value="hiring"
+                    />
+                    <label for="type">Hiring</label>
+                  </div>
+                </div>
+                <div class="form-col rate" id="rate">
+                  <label for="hourly_rate">Hourly Rate <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    name="hourly_rate"
+                    id="hourly_rate"
+                    pattern="[0-9]+"
+                    placeholder="Enter the hourly rate"
+                  />
+                </div>
+                <div class="form-col">
+                  <label for="subject">Subject <span class="required">*</span></label>
+                  <input type="text" name="subject" id="subject" required  placeholder="Subject"/>
+                </div>
+                <div class="form-col">
+                  <label for="message">Your Message <span class="required">*</span></label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="5"
+                    required
+                    placeholder="Type Your Message here ..."
+                  ></textarea>
+                </div>
+                <button class="button" type="submit">Contact Me</button>
+              </form>
+            </div>
+          </section>
+          <!-- CONTACT FORM ENDS -->
+        </main> 
+        <!-- MAIN CONTENT ENDS -->
+
+        <!-- FOOTER STARTS -->
+        <footer class="footer">
+          <p>Copyright 2022</p>
+        </footer>
+        <!-- FOOTER ENDS -->
+      </section>
+      <!-- MAIN SECTION ENDS -->
+    </div>
+    <!-- MY JAVASCRIPT FILE -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
